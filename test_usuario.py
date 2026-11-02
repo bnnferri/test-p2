@@ -6,7 +6,8 @@ def test_obter_nome():
         mock_buscar_usuario.return_value = {
             "id":1,
             "nome":"Carlos",
-            "idade": 10
+            "idade": 10,
+            "test":"test"
         }
         nome = obter_nome(1)
 
